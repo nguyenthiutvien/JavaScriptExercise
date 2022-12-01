@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./javascripts.js"></script>
+</head>
+<body>
+    <form class="wap">
+        <h1>MENU</h1> <br>
+        Chọn nước uống:
+        <select name="" id='drink'>
+            <option value="Nước suối">Nước suối</option>
+            <option value="COCA COLA">COCA COLA</option>
+            <option value="7 UP">7 UP</option>
+            <option value="PESSI">PESSI</option>
+            <option value="CAM ÉP"> CAM ÉP</option>
+            <option value="Sting">Sting</option>
+            <option value="BÒ HÚC">Bò Húc</option>
+            <option value="none">Không uống nước</option>
+        </select> <br> <br>
+        Chọn trái cây:
+        <select name="" id="fruit">
+            <option value="Trái cây nhỏ">Trái cây nhỏ</option>
+            <option value="Trái cây lớn">Trái cây lớn</option>
+            <option value="Bưởi">Bưởi</option>
+            <option value="none">Không chọn</option>
+        </select> <br> <br>
+        Tiền của bạn:
+        <input type="number" id="money" placeholder="Nhập số tiền!"> </input> <br> <br>
+        <input type="button" onclick="functionBuy()" value="Buy">
+        <input type="button" onclick="functionCancle()" value="Cancle"></input> <br><br>
+        <h4> Cảm ơn quý khách! <span id="message"></span> <span id="nameDrink"></span><span id ="nameFruit"></span> </h4> <br><br>
+   
+        Tiền thừa:
+        <input type="number" id="bill" value=""></input> <br> <br> 
+    
+    </form>
+    
+</body>
+</html>
